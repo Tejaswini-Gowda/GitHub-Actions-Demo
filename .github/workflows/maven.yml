@@ -40,5 +40,5 @@ jobs:
       - name: Publish artifact on GitHub Packages
         run: mvn deploy
         env:
-         GITHUB_TOKEN: ${{secrets.sandesh}}  #npm_token
+         GITHUB_TOKEN: ${{secrets.tejaswini}}  #npm_token
       
